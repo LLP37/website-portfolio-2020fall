@@ -10,8 +10,7 @@
 |lp_logo3.png                                                 | Created by myself using Canva and Gimp     |    Logo designed by me.                                                      |
 
 Soundscape Credits (since I featured it on my website)
-| Sounds from YouTube Library (licensed under YouTube Terms of Service): |
-| ---------------------------------------------------------------------- |
+ Sounds from YouTube Library (licensed under YouTube Terms of Service): 
 | Needs                                                                     | Where it's from/Permissions                             | Citations                                                                                                                                                                             |
 | Orbit (Sad Music)                                                      | Sound from YouTube Library. | Corbyn Kites. YouTube Library. https://www.youtube.com/audiolibrary/music?ar=1600173022055&nv=1 |
 | Keyboard Typing Fast Close                                             | Sound from YouTube Library | YouTube Library.  https://www.youtube.com/audiolibrary/soundeffects?ar=1600130049070&nv=1 |
