@@ -6,8 +6,18 @@
     <link rel='stylesheet' href='stylesheet.css'/>
   </head>
   <body>
-    <h1>Contact</h1></br>
+    <div class="topbar">
+      <img src='lp_logo3.png' align="left" width='200' alt='Logo I designed'/>
+      <h1>Contact</h1>
+    </div>
+    <div class="navigation">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="Contact.html">Contact</a>
+      <a href="projects.html">Projects</a>
+    </div></br>
     <img src='Lydon1.jpeg' width='300' alt='Picture of me'/>
+    <figcaption>Picture taken by Lydon Pelletier.</figcaption>
     <p>My name is Lydon Pelletier. I am a sophomore studying Computer <br/>
        Science at the University of Pittsburgh. This website is being used as <br/>
         my portfolio to showcase various projects I have completed while here<br/>
@@ -15,13 +25,34 @@
        at SAP since May of this year.</p>
     <h2>
       <a href="https://www.linkedin.com/in/lydon-pelletier-2aab04191/">
-        <img border="0" alt="LinkedIn" src="LI-In-Bug.png" width= '80' height= '80'>
+        <img border="0" alt="LinkedIn image" src="LI-In-Bug.png" width= '80' height= '80'>
       </a>
     </h2></br>
     <h2>
       <a href="https://github.com/LLP37">
-        <img border="0" alt="GitHub" src="GitHub-Mark-64px.png">
+        <img border="0" alt="GitHub image" src="GitHub-Mark-64px.png">
       </a>
     </h2>
+    <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+    </div>
   </body>
 </html>
