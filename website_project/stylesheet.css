@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*For header and paragraph*/
 h1, p {
   background-color: #F4D4D4;    /* Light pink */
 }
@@ -12,11 +12,13 @@ em, strong {
   background-color: #B2D6FF;    /* Light blue */
   display: inline;
 }
+/*For header 1*/
 h1 {
   padding: 50px;
   border: 0px solid #5D6063;
   margin-bottom: 50px;
 }
+/*For paragraph*/
 p {
   padding: 20px 0 20px 10px;  /* Vertical  Horizontal */
   margin-top: 25px;
@@ -28,12 +30,15 @@ strong {
     text-align: center;
   }
 }
+/*For figure*/
 figure {
     margin: 0;
 }
+/*For aligning text to center by default*/
 body{
   text-align: center;
 }
+/*For body text of blog posts*/
 .blogbody {
   font-family: Arial;
   padding: 20px;
@@ -41,50 +46,52 @@ body{
   text-align: left;
 }
 
-/*Left Colum*/
+/*Left Colum, keeps background of posts on blog page from going all the way to the right*/
 .leftcolumn {
   float: left;
   width: 75%;
 }
-/*Right Colum*/
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-
+/*Background of post on Blog Page (pink part)*/
 .card {
   background-color: #F4D4D4;
   padding: 20px;
   padding-right: 100px;
   margin-top: 20px;
 }
-
+/*Adds blank row at bottom of blog page (makes it seem as though it might continue)*/
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+/*For navigation menu below header on every page*/
 .navigation {
    color:#000000;
    background-color: #F4D4D4;
    font-weight: bold;
    text-align: center;
-   padding: 20px;
+   padding: 10px;
    display: flex;
    justify-content: space-around;
-   margin-top: 20px auto;
  }
+ /*For font used in header*/
+ @font-face {
+   font-family: playball;
+   src: url('Playball-q6o1.ttf');
+ }
+ /*For header on every page*/
  .topbar{
    color:#000000;
    background-color: #F4D4D4;
+   font-size: 60px;
+   font-family: playball;
+   padding: 2px;
    border: 0px solid;
    outline: none;
    text-align: center;
-   padding: 20px;
-   margin-top: 20px auto;
  }
  .topbar img { position: absolute; left: 15px; top: 10px; }
+/*For Contact Button at Bottom of Home Page*/
 .contactbutton{
     color: #000000;
     background-color: #F4D4D4;
@@ -98,32 +105,40 @@ body{
     width: 200px;
     box-sizing: border-box;
 }
-.wrapper {
+/*For the grid layout on Project Page*/
+.grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+/*For the grid layout on Project Page*/
 .one {
   background-color: #F4D4D4;
   grid-column: 1;
   grid-row: 1/5;
 }
+/*For the grid layout on Project Page*/
 .two {
   background-color: #F4D4D4;
   grid-column: 3;
   grid-row: 1/5;
 }
+/*For the grid layout on Project Page*/
 .three {
   background-color: #F4D4D4;
   grid-column: 2;
   grid-row: 1/5;
 }
+.footer{
+  text-align: center;
+}
+/*For Contact Form on Contact page*/
 label {
   font-weight: bold;
   font-size: 16px;
 }
-
+/*For Contact Form on Contact page*/
 #submit_button {
   background-color: #F4D4D4;
   height: 30px;
@@ -131,7 +146,7 @@ label {
   color: #000000;
   font-weight: bold;
 }
-
+/*For Contact Form on Contact page*/
 input, textarea {
   background-color: #F4D4D4;
   color: #2F4F4F;
@@ -139,6 +154,7 @@ input, textarea {
   margin-bottom: 10px;
   box-shadow: 5px 5px 2px 2px #696969;
 }
+/*Links turn white when you hover over them*/
 a:hover {
    color: white;
    text-decoration: underline;
@@ -150,4 +166,29 @@ a:hover {
     width: 100%;
     padding: 0;
   }
+  /*For the grid layout on Project Page*/
+  .grid{
+    background-color: #F4D4D4;
+    text-align: center;
+  }
+  /*For the grid layout on Project Page*/
+  .one {
+    background-color: #F4D4D4;
+    grid-column: 1;
+    grid-row: 0;
+  }
+  /*For the grid layout on Project Page*/
+  .two {
+    background-color: #F4D4D4;
+    grid-column: 1;
+    grid-row: 5;
+  }
+  /*For the grid layout on Project Page*/
+  .three {
+    background-color: #F4D4D4;
+    grid-column: 1;
+    grid-row: 7;
+  }
+  /*Moves logo to the bottom, doesn't look as good since it isn't on top of pink background. Harsh edges work in my favor as you can depic circle outline*/
+  .topbar img { position: absolute; left: 0px; top: 10px; width: 20%; }
 }
