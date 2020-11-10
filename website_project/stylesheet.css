@@ -14,8 +14,8 @@ em, strong {
 }
 h1 {
   padding: 50px;
-  border: 1px solid #5D6063;
-  margin-bottom: 50 px;
+  border: 0px solid #5D6063;
+  margin-bottom: 50px;
 }
 p {
   padding: 20px 0 20px 10px;  /* Vertical  Horizontal */
@@ -34,15 +34,6 @@ figure {
 body{
   text-align: center;
 }
-.navigation {
-   color:#FFF;
-   background-color: #FFf;
-   padding: 20px;
-   display: flex;
-   justify-content: space-around;
-   margin-top: 20px;
-   margin-bottom: 45px;
- }
 .blogbody {
   font-family: Arial;
   padding: 20px;
@@ -50,13 +41,6 @@ body{
   text-align: left;
 }
 
-/*Blog Title*/
-.header {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: #F4D4D4;
-}
 /*Left Colum*/
 .leftcolumn {
   float: left;
@@ -81,9 +65,28 @@ body{
   display: table;
   clear: both;
 }
-
-.home{
-    color: #FFF;
+.navigation {
+   color:#000000;
+   background-color: #F4D4D4;
+   font-weight: bold;
+   text-align: center;
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px auto;
+ }
+ .topbar{
+   color:#000000;
+   background-color: #F4D4D4;
+   border: 0px solid;
+   outline: none;
+   text-align: center;
+   padding: 20px;
+   margin-top: 20px auto;
+ }
+ .topbar img { position: absolute; left: 15px; top: 10px; }
+.contactbutton{
+    color: #000000;
     background-color: #F4D4D4;
     font-weight: bold;
     padding: 20px;
@@ -95,6 +98,51 @@ body{
     width: 200px;
     box-sizing: border-box;
 }
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  background-color: #F4D4D4;
+  grid-column: 1;
+  grid-row: 1/5;
+}
+.two {
+  background-color: #F4D4D4;
+  grid-column: 3;
+  grid-row: 1/5;
+}
+.three {
+  background-color: #F4D4D4;
+  grid-column: 2;
+  grid-row: 1/5;
+}
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#submit_button {
+  background-color: #F4D4D4;
+  height: 30px;
+  width: 20%;
+  color: #000000;
+  font-weight: bold;
+}
+
+input, textarea {
+  background-color: #F4D4D4;
+  color: #2F4F4F;
+  width: 250px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 2px 2px #696969;
+}
+a:hover {
+   color: white;
+   text-decoration: underline;
+ }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
