@@ -160,7 +160,7 @@ input, textarea {
 }
 /*Links turn white when you hover over them*/
 a:hover {
-   color: white;
+   color: grey;
    text-decoration: underline;
  }
 
