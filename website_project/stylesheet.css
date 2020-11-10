@@ -34,6 +34,10 @@ strong {
 figure {
     margin: 0;
 }
+figcaption {
+    font-family: san-serif;
+    font-size: 12px;
+}
 /*For aligning text to center by default*/
 body{
   text-align: center;
