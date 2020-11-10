@@ -10,8 +10,7 @@
 |lp_logo3.png                                                 | Created by myself using Canva and Gimp     |    Logo designed by me.                                                      |
 
 Soundscape Credits (since I featured it on my website)
- Sounds from YouTube Library (licensed under YouTube Terms of Service): 
- | Assets:  |                                       |                                                                                                                                                                                       |
+ |  Sounds from YouTube Library (licensed under YouTube Terms of Service):  |                                       |                                                                                                                                                                                       |
  |---------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Needs                                                                     | Where it's from/Permissions                             | Citations                                                                                                                                                                             |
 | Orbit (Sad Music)                                                      | Sound from YouTube Library. | Corbyn Kites. YouTube Library. https://www.youtube.com/audiolibrary/music?ar=1600173022055&nv=1 |
@@ -24,7 +23,8 @@ Soundscape Credits (since I featured it on my website)
 | Sound from WikiMedia Commons:                                          |  |
 | Needs                                                                  | Solutions | Citations |
 | Alarm Noise                                                            | Sound from Wikimedia Commons | Geckoerer. File: Alarmclcok-bleeps.ogg.https://commons.wikimedia.org/wiki/File:Alarmclock-bleeps.ogg (licensed under the Creative Commons 0 License) |
-| Fair Use Clips:                                                        |  |  |
+| Fair Use:  |                                       |                                                                                                                                                                                       |
+|---------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Needs                                                                  | Solutions | Citations |
 | Siri Alarm Set                                                         | Recorded on my iPhone | Recorded by Author under Fair Use. |
 | Walk Sign                                                              | Recorded on my iPhone | Recorded by Author under Fair Use. |
