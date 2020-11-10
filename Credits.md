@@ -12,7 +12,7 @@
 Soundscape Credits (since I featured it on my website)
 | Sounds from YouTube Library (licensed under YouTube Terms of Service): |
 | ---------------------------------------------------------------------- |
-| Needs                                                                  | Solutions | Citations |
+| Needs                                                                     | Where it's from/Permissions                             | Citations                                                                                                                                                                             |
 | Orbit (Sad Music)                                                      | Sound from YouTube Library. | Corbyn Kites. YouTube Library. https://www.youtube.com/audiolibrary/music?ar=1600173022055&nv=1 |
 | Keyboard Typing Fast Close                                             | Sound from YouTube Library | YouTube Library.  https://www.youtube.com/audiolibrary/soundeffects?ar=1600130049070&nv=1 |
 | Zipper                                                                 | Sound from YouTube Library | YouTube Library. https://www.youtube.com/audiolibrary/soundeffects?ar=1600130049070&nv=1 |
@@ -41,7 +41,7 @@ Soundscape Credits (since I featured it on my website)
 
 
 Visual Argument Credits (since I featured it on my website)
-| Needs                                                                     |Where it's from/Permissions                          | Citations                                                                                                                                                                             |
+| Needs                                                                     | Where it's from/Permissions                             | Citations                                                                                                                                                                             |
 | Female Stick Figure                                                      | Woman by Hea Poh Lin from the Noun Project (Creative Commons BY License)          |             Poh Lin, Hea. “Woman.” Noun Project, https://thenounproject.com/search/?q=female+stick+figure&i=474301.                                                                    |
 | Male Stick Figure                                               | Man by TMD from the Noun Project (Creative Commons License BY License)           |     TMD. “Man.” Noun Project, https://thenounproject.com/term/man/1466920/.                                                                                   |
 | Computers                                                                    |  Computer by Celeste Njoo from the Noun Project (Creative Commons BY License)         | Njoo, Celeste. “Computer.” Noun Project, https://thenounproject.com/term/computer/899133/.                                                                                     |
